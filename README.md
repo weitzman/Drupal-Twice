@@ -4,6 +4,7 @@ Usage
 =====
 ```shell
 composer install
+# Get DDEV from ddev.readthedocs.io/
 ddev start
 ddev snapshot restore --latest
 # Make sure you see Drupal bootstrap : Successful
