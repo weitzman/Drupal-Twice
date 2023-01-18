@@ -3,8 +3,11 @@ A repo for reproducing the Drupal bug at https://www.drupal.org/project/drupal/i
 Usage
 =====
 ```shell
+# Clone this repo
+git clone https://github.com/weitzman/drupal-twice.git
+cd drupal-twice
 composer install
-# Get DDEV from ddev.readthedocs.io/
+# Get DDEV from ddev.readthedocs.io/ if needed.
 ddev start
 ddev snapshot restore --latest
 # Make sure you see Drupal bootstrap : Successful
